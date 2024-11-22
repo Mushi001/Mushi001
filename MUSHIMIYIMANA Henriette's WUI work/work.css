@@ -1,0 +1,93 @@
+.shou{
+    background-color: rgb(20, 20, 44);
+    color:rgb(236, 194, 56);
+    width:550px;
+
+    
+    
+}
+h2{
+    margin:0;
+    color:rgb(236, 194, 56); 
+    background:rgb(240, 130, 5);
+    width:550px;
+    height: 60px;
+    text-align: center;
+}
+
+.camon{
+    align-items: left;
+    height: 60px;
+    background-color: rgb(240, 130, 5);
+    
+    
+}
+input{
+  
+  height:20px ;
+  margin:10px;
+
+}
+#main{
+    margin-left: 380px;
+}
+#green{
+   background-color: rgb(29, 133, 29);
+   border:0;
+   color:white;
+   margin-top: 10px;
+   width: 75px;
+   height:35px;
+
+}
+#red{
+    background-color:rgb(231, 82, 82);
+    border:0;
+    color:white;
+    margin-top: 10px;
+    width: 75px;
+    height: 35px;
+}
+.terms{
+    margin-left: 150px;
+}
+
+.shou label{
+    margin-left: 10px;
+}
+#fname{
+    margin-left:105px;
+}
+#lname{
+    margin-left:107px;
+}
+#country{
+    margin-left:127px;
+    
+}
+#mail{
+    margin-left:135px;
+}
+#phone{
+    margin-left:140px;
+}
+#passo{
+    margin-left:120px;
+}
+#passa{
+    margin-left:60px;
+}
+#male{
+margin-left: 130px;
+margin-top: 10px;
+}
+#color{
+    margin-left:93px
+}
+
+#terms{
+    margin-left: 45px;
+}
+#date{
+    margin-left: 94px;
+}

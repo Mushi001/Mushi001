@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="work.css">
+</head>
+<h2>Registration Form</h2>
+<body>
+    <div class="shou">
+        <form action="work.php" method="post">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="fname" placeholder="Enter First Name"><br>
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lname" placeholder="Enter Last Name"><br>
+
+          <label>Date of Birth</label>
+          <input type="date" id="date" name="date"><br>
+
+  
+
+          <label>Gender</label>
+          <input type="radio" id="male" name="gender" value="Male" required>
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="Female" required>
+          <label for="female">Female</label><br>
+
+          <label>Choose color</label>
+          <input  type="color" id="color" name="color"><br>
+          
+          <label>Country</label>
+          <select name="country" id="country">
+            <option>Country</option>
+            <option>UK</option>
+            <option>USA</option>
+            <option>Rwanda</option>
+            <option>India</option>
+          </select><br>
+
+          <label for="mail">E-mail</label>
+          <input type="email" id="mail" name="mail" placeholder="Enter E-mail"><br>
+          
+          <label for="phone">Phone</label>
+          <input type="number" id="phone" name="phone" placholder="Enter Phone"><br>
+
+          <label for="passo">Password</label>
+          <input type="password" id="passo" name="pass"><br>
+
+          <label for="passa">Confirm Password</label>
+          <input type="password" id="passa" name="pass"><br>
+           
+          <div class="terms">
+          <input type="checkbox" id="terms" name="terms">
+          <label for="terms">I Agree to the Terms of Use</label><br>
+          </div>
+
+          <div class="camon">
+            <div id="main">
+              <button type="submit" id="green">Submit</button>
+              <button type="reset" id="red">Cancel</button>
+            </div>
+          </div>
+        </form>
+    </div>
+</body>
+</html>

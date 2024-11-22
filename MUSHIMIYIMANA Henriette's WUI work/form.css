@@ -1,0 +1,97 @@
+.done{
+    background-color: rgb(138, 135, 135);
+    width: 600px;
+    height: 750px;
+    border-radius: 25px;
+    margin: 80px;
+    margin-left: 200px;
+}
+h2{
+    text-align: center;
+    margin: 12px;
+    padding: 30px;
+    color: white;
+    
+}
+#fname{
+margin-left: 130px;
+height: 30px;
+width: 210px;
+border-radius: 20px;
+border: none;
+}
+#lname{
+    margin-left: 132px;
+    height: 30px;
+    width: 210px;
+    border-radius: 20px;
+    border: none;
+}
+#mail{
+    margin-left: 165px;
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    width: 210px;
+}
+#male{
+    margin-left: 160px;
+}
+.check{
+    margin-left: 229px;
+    color: white;
+}
+#sel{
+    margin-left: 235px;
+    height: 30px;
+    width: 218px;
+    border-radius: 20px;
+    border: none;
+}
+#pass{
+    margin-left: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    width: 210px;
+}
+#area{
+    margin-left: 238px;
+    height: 60px;
+    width: 210px;
+}
+#time{
+    margin-left: 85px;
+    height: 30px;
+    width: 110px;
+    border-radius: 20px;
+    border: none;
+}
+#rate{
+    margin-left: 120px;
+}
+#sub{
+    margin-left: 450px;
+    margin-top: 30px;
+    background-color: rgb(250, 72, 2);
+    color: white;
+    border:none;
+    width:100px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 10px;
+    
+}
+*{
+    font-family:  'Times New Roman', Times, serif;
+}
+label{
+margin-left: 20px;
+    color:white;
+}
+#sub:hover{
+cursor: pointer;
+background-color:rgb(250, 39, 2) ;
+
+}
